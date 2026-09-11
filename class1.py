@@ -1,0 +1,5 @@
+name=input("Enter your Name : ")
+age=input("Enter Your Age : ")
+place=input("Enter Your Place: ")
+print("Name:",name,type(name),"Age:",age,type(age),sep="-",end=" ")
+print("place :",place)

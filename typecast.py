@@ -1,0 +1,5 @@
+num1=int(input("Enter a Number "))
+num2=int(input("Enter Another Number "))
+# print("Result= ",num1+num2)
+result=(num1+num2)
+print("Result=",result)
