@@ -1,6 +1,6 @@
 while True:
  print("-----------------------------")
- print("|      |Calculator|")
+ print(" |      |Calculator|       |")
  print("-----------------------------|")
  print("|1.Addition                  |")
  print("|2.Substarction              |")
@@ -16,22 +16,24 @@ while True:
    if choice == 1:
     n1=float(input("Enetr Your First Number: "))
     n2=float(input("Enter Your Second Number: "))
-    print(n1,"+",n2,"=",n1+n2)
+    print("|",n1,"+",n2,"=",n1+n2,"|")
    elif choice== 2:
     n1=float(input("Enetr Your First Number: "))
     n2=float(input("Enter Your Second Number: "))
-    print(n1,"-",n2,"=",n1-n2)
+    print("|",n1,"-",n2,"=",n1-n2,"|")
    elif choice== 3:
     n1=float(input("Enetr Your First Number: "))
     n2=float(input("Enter Your Second Number: "))
     try:
-      print(n1,"%",n2,"=",n1/n2)
+      print("|",n1,"%",n2,"=",n1/n2,"|")
     except:
       print("You Cant Use 0 in Division!")
    elif choice== 4:
     n1=float(input("Enetr Your First Number: "))
     n2=float(input("Enter Your Second Number: "))
-    print(n1,"x",n2,"=",n1*n2)
+    print(" ----------------------")
+    print("|",n1,"x",n2,"=",n1*n2,"|")
+    print(" ----------------------")
    elif choice== 5:
       break
    elif choice == " ":
